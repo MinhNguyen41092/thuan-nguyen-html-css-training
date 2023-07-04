@@ -12,6 +12,20 @@
 /*-----------------------------*\
     #GLOBAL ELEMENTS
 \*-----------------------------*/
+html {
+  background: #faf8ed;
+}
+
+p {
+  font-family: "Poppins";
+  color: var(--gray-color);
+  font-size: 16px;
+  line-height: 28px;
+}
+
+a {
+  text-decoration: none;
+}
 
 /*-----------------------------*\
     #SET FONT FAMILY
