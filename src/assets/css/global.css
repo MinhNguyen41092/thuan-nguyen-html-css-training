@@ -1,0 +1,32 @@
+/*-----------------------------*\
+    #CSS VARIABLES
+\*-----------------------------*/
+
+:root {
+  --text-color: #5b5f62;
+  --heading-color: #2d3134;
+  --primary-color: #f66f4d;
+  --gray-color: #939597;
+}
+
+/*-----------------------------*\
+    #GLOBAL ELEMENTS
+\*-----------------------------*/
+html {
+  background-color: #faf8ed;
+}
+
+p {
+  font-family: "Poppins";
+  color: var(--gray-color);
+  font-size: 16px;
+  line-height: 28px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*-----------------------------*\
+    #SET FONT FAMILY
+\*-----------------------------*/

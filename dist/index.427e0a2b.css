@@ -1,0 +1,23 @@
+:root {
+  --text-color: #5b5f62;
+  --heading-color: #2d3134;
+  --primary-color: #f66f4d;
+  --gray-color: #939597;
+}
+
+html {
+  background-color: #faf8ed;
+}
+
+p {
+  color: var(--gray-color);
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=index.427e0a2b.css.map */
