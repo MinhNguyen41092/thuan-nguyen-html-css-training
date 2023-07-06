@@ -1,0 +1,77 @@
+.container {
+  padding: 0 135px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+}
+.header-menu {
+  display: inline-flex;
+  box-sizing: border-box;
+}
+.header-logo {
+  float: left;
+  display: inline-flex;
+}
+
+.header-logo__image {
+  width: 42;
+  height: 35;
+  padding: 33px 0 34px 0;
+}
+
+.header-logo__text {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  color: var(--heading-color);
+  font-size: 20px;
+  padding: 40px 0 42px 0;
+}
+
+.header-menu__navbar {
+  width: 447px;
+  height: 24px;
+  padding: 39px 0 46px 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 0 36px;
+  margin-left: 72px;
+}
+
+.header-menu__navbar .header__link {
+  color: #2e476b;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.16px;
+}
+
+.header-menu__navbar .header__link:hover {
+  cursor: pointer;
+}
+
+.header-button {
+  width: 174px;
+  height: 54px;
+  float: right;
+  margin: 24px 0;
+  background-color: #faf8ed;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 20px;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.header-button:hover {
+  cursor: pointer;
+}

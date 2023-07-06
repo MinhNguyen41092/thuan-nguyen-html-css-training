@@ -1,0 +1,66 @@
+/*-----------------------------*\
+    #CSS VARIABLES
+\*-----------------------------*/
+
+:root {
+  --text-color: #5b5f62;
+  --heading-color: #2d3134;
+  --primary-color: #f66f4d;
+  --gray-color: #939597;
+}
+
+/*-----------------------------*\
+    #GLOBAL ELEMENTS
+\*-----------------------------*/
+html {
+  background-color: #faf8ed;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: var(--heading-color);
+  font-family: "Inter", sans-serif;
+  font-weight: 600px;
+  font-style: normal;
+  font-size: 56px;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/*-----------------------------*\
+    #SET FONT FAMILY
+\*-----------------------------*/
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  src: url(/src/assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  src: url(/src/assets/fonts/Poppins/Poppins-Black.ttf);
+}
+
+@font-face {
+  font-family: "Sen";
+  font-style: normal;
+  src: url(/src/assets/fonts/Sen/Sen-Regular.ttf);
+}
