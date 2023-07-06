@@ -1,36 +1,36 @@
-.wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
+header {
+  padding: 0 135px;
+  box-sizing: border-box;
 }
 
-.header__logo {
+.header-logo {
   float: left;
   display: inline-flex;
   margin: 33px 0 34px 0;
 }
 
-.logo__image {
+.header-logo__image {
   width: 42;
   height: 35;
 }
 
-.logo__text {
+.header-logo__text {
   font-family: "Sen", sans-serif;
   font-weight: 700;
   color: #2d3134;
   align-self: center;
 }
 
-.header__menu {
+.header-menu {
   float: left;
 }
 
-.header__menu ul {
+.header-menu ul {
   margin-left: 72px;
   list-style: none;
 }
 
-.header__menu li {
+.header-menu li {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 16px;
@@ -42,11 +42,11 @@
   margin-left: 36px;
 }
 
-.header__button {
+.header-button {
   width: 174px;
   height: 54px;
   float: right;
-  margin: 24px 135px 24px 0;
+  margin: 24px 0;
   background-color: #faf8ed;
   color: var(--primary-color);
   border: 2px solid var(--primary-color);
