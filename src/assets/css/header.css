@@ -51,6 +51,10 @@
   letter-spacing: 0.16px;
 }
 
+.header-menu__navbar .header__link:hover {
+  cursor: pointer;
+}
+
 .header-button {
   width: 174px;
   height: 54px;

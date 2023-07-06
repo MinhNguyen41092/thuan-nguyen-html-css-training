@@ -52,6 +52,10 @@
   line-height: 16px;
 }
 
+.header-menu__navbar .header__link:hover {
+  cursor: pointer;
+}
+
 .header-button {
   float: right;
   color: var(--primary-color);

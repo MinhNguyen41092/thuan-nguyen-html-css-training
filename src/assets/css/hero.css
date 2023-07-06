@@ -1,6 +1,9 @@
 .hero {
   padding: 0 135px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 720px;
 }
 
 .hero-describe {
@@ -33,14 +36,16 @@
   background-color: #fdfeff;
   border-radius: 50px;
   margin-top: 44px;
-  display: inline;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .searchbox-1 {
   padding: 20px 0 19px 28px;
 }
 
-.searchbox-1 p {
+.searchbox__title {
   color: #2d3134;
   font-size: 18px;
   font-style: normal;
@@ -48,7 +53,7 @@
   line-height: 17px;
 }
 
-.searchbox-1 .searchbox__text {
+.searchbox__text {
   color: #9498a4;
   font-family: Inter;
   font-size: 12px;
@@ -56,4 +61,30 @@
   font-weight: 400;
   line-height: 12px;
   margin-top: 8px;
+}
+
+.searchbox-2 {
+  padding: 20px 0 19px 34px;
+  display: flex;
+}
+
+.searchbox__img {
+  margin-left: 26px;
+}
+
+.searchbox__line {
+  margin-left: 34px;
+}
+
+.searchbox__icon {
+  margin-left: 57px;
+}
+
+.hero-image {
+  margin: 10px 10px 53px 67px;
+  width: 534px;
+  height: 555px;
+  background: url(/src/assets/images/hero/background-image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
