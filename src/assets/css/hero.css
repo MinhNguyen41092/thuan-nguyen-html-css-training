@@ -1,12 +1,11 @@
 .hero {
   padding: 0 135px;
-  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   height: 720px;
 }
 
-.hero-describe {
+.hero__describe {
   display: flex;
   flex-direction: column;
   width: 577px;
@@ -14,58 +13,20 @@
   margin: 74px 0 84px 0;
 }
 
-.hero-describe__title h1 {
-  font-family: "Sen", sans-serif;
-  font-size: 84px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 86px;
-}
-
-.hero-describe__text {
+.hero__describe--text {
   margin-top: 26px;
 }
 
-.hero-describe__text p {
-  font-size: 18px;
-}
-
-.hero-describe__searchbox {
+.hero__describe--searchbox {
   width: 500px;
   height: 76px;
   background-color: #fdfeff;
-  border-radius: 50px;
+  border-radius: 38px;
   margin-top: 44px;
+  padding-left: 28px;
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.searchbox-1 {
-  padding: 20px 0 19px 28px;
-}
-
-.searchbox__title {
-  color: #2d3134;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 17px;
-}
-
-.searchbox__text {
-  color: #9498a4;
-  font-family: Inter;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 12px;
-  margin-top: 8px;
-}
-
-.searchbox-2 {
-  padding: 20px 0 19px 34px;
-  display: flex;
 }
 
 .searchbox__img {
@@ -73,14 +34,14 @@
 }
 
 .searchbox__line {
-  margin-left: 34px;
+  margin: 0 34px;
 }
 
 .searchbox__icon {
   margin-left: 57px;
 }
 
-.hero-image {
+.hero__image {
   margin: 10px 10px 53px 67px;
   width: 534px;
   height: 555px;
