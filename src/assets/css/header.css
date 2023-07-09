@@ -1,4 +1,4 @@
-.header-container {
+.header__container {
   height: 102px;
   padding: 0 135px;
   display: flex;
@@ -15,20 +15,20 @@
   flex-direction: row;
 }
 
-.header__logo--image {
+.header__image {
   width: 42;
   height: 35;
   margin: 33px 0 34px 0;
 }
 
-.header__logo--text {
+.header__text {
   font-family: "Sen", sans-serif;
   font-weight: 700;
   font-size: 20px;
   margin: 40px 0 42px 0;
 }
 
-.header__menu--navbar {
+.header__navbar {
   margin: 39px 0 47px 72px;
   display: flex;
   flex-direction: row;

@@ -12,6 +12,8 @@
   --dark-color: #2d3134;
   --gray-color: #939597;
   --text-color: #5b5f62;
+  --text-blue: #2e476b;
+  --text-light: #9498a4;
 }
 
 /*-----------------------------*\
@@ -24,7 +26,7 @@
 }
 
 .wrapper {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -37,11 +39,8 @@
 a {
   font-family: "Poppins";
   font-weight: var(--fw-regular);
-  font-size: 16px;
-  line-height: 16px;
   text-align: center;
   letter-spacing: 0.16px;
-
   text-decoration: none;
 }
 
@@ -70,10 +69,18 @@ h2 {
   font-weight: var(--fw-semibold);
   font-style: normal;
   font-size: 56px;
-  line-height: 56px;
+  line-height: 66px;
 }
 
 h3 {
+  font-family: "Inter";
+  font-weight: var(--fw-semibold);
+  font-style: normal;
+  font-size: 46px;
+  line-height: 46px;
+}
+
+h4 {
   font-family: "Inter";
   font-weight: var(--fw-semibold);
   font-style: normal;
@@ -93,18 +100,60 @@ h3 {
   color: var(--dark-color);
 }
 
+.text--gray {
+  color: var(--gray-color);
+}
+
 .text--primary {
   color: var(--primary-color);
 }
 
-.text--nav {
-  color: #2e476b;
+.text--blue {
+  color: var(--text-blue);
 }
 
-.text--hero {
-  color: #9498a4;
+.text--light {
+  color: var(--text-light);
+}
+
+.text--small {
   font-size: 12px;
   line-height: 12px;
+}
+
+.text--medium {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/*------------------------------------*\
+  #BUTTON
+\*------------------------------------*/
+
+.button-group {
+  width: 124px;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 54px;
+  height: 54px;
+  border-radius: 100px;
+  background-color: #faf8ed;
+}
+
+.btn__image {
+  width: 25%;
+  height: 25%;
+  object-fit: cover;
+}
+
+.btn:hover {
+  cursor: pointer;
+  filter: invert(100%);
 }
 
 /*-----------------------------*\
