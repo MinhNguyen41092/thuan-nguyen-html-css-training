@@ -12,6 +12,8 @@
   --dark-color: #2d3134;
   --gray-color: #939597;
   --text-color: #5b5f62;
+  --text-blue: #2e476b;
+  --text-light: #9498a4;
 }
 
 /*-----------------------------*\
@@ -41,7 +43,6 @@ a {
   line-height: 16px;
   text-align: center;
   letter-spacing: 0.16px;
-
   text-decoration: none;
 }
 
@@ -75,10 +76,10 @@ h2 {
 
 h3 {
   font-family: "Inter";
-  font-weight: var(--fw-medium);
+  font-weight: var(--fw-semibold);
   font-style: normal;
-  font-size: 26px;
-  line-height: 26px;
+  font-size: 24px;
+  line-height: 24px;
 }
 
 /*-----------------------------------------*\
@@ -97,18 +98,47 @@ h3 {
   color: var(--primary-color);
 }
 
-.text--nav {
-  color: #2e476b;
+.text--blue {
+  color: var(--text-blue);
 }
 
-.text--hero {
-  color: #9498a4;
+.text--light {
+  color: var(--text-light);
+}
+
+.text--small {
   font-size: 12px;
   line-height: 12px;
 }
 
-.text--medium {
-  font-size: 16px;
+/*------------------------------------*\
+  #BUTTON
+\*------------------------------------*/
+
+.button-group {
+  width: 124px;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 54px;
+  height: 54px;
+  border-radius: 100px;
+  background-color: #faf8ed;
+}
+
+.btn__image {
+  width: 25%;
+  height: 25%;
+  object-fit: cover;
+}
+
+.btn:hover {
+  cursor: pointer;
+  filter: invert(100%);
 }
 
 /*-----------------------------*\

@@ -20,15 +20,6 @@
   margin-top: 24px;
 }
 
-.categories__button-group {
-  display: flex;
-  gap: 0 16;
-}
-
-.categories__button {
-  cursor: pointer;
-}
-
 .categories__cards {
   width: 1170px;
   height: 274px;
@@ -40,9 +31,30 @@
 .categories__card {
   width: 170px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
 }
 
-.categories__card--title {
-  text-align: center;
-  margin-top: 18px;
+.categories__card__text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.categories__card:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.categories__card img:hover + .categories__card__text {
+  opacity: 1;
 }
