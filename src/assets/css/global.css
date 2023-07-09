@@ -26,7 +26,7 @@
 }
 
 .wrapper {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -39,8 +39,6 @@
 a {
   font-family: "Poppins";
   font-weight: var(--fw-regular);
-  font-size: 16px;
-  line-height: 16px;
   text-align: center;
   letter-spacing: 0.16px;
   text-decoration: none;
@@ -71,10 +69,18 @@ h2 {
   font-weight: var(--fw-semibold);
   font-style: normal;
   font-size: 56px;
-  line-height: 56px;
+  line-height: 66px;
 }
 
 h3 {
+  font-family: "Inter";
+  font-weight: var(--fw-semibold);
+  font-style: normal;
+  font-size: 46px;
+  line-height: 46px;
+}
+
+h4 {
   font-family: "Inter";
   font-weight: var(--fw-semibold);
   font-style: normal;
@@ -94,6 +100,10 @@ h3 {
   color: var(--dark-color);
 }
 
+.text--gray {
+  color: var(--gray-color);
+}
+
 .text--primary {
   color: var(--primary-color);
 }
@@ -109,6 +119,11 @@ h3 {
 .text--small {
   font-size: 12px;
   line-height: 12px;
+}
+
+.text--medium {
+  font-size: 16px;
+  line-height: 26px;
 }
 
 /*------------------------------------*\
