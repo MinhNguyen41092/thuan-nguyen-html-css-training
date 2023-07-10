@@ -41,6 +41,10 @@
   margin: 24px 0;
   border: 2px solid var(--primary-color);
   border-radius: 20px;
+  background-color: #faf8ed;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: var(--fw-medium);
 }
 
 .header__button:hover {
