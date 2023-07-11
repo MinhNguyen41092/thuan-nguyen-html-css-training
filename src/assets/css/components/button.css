@@ -1,0 +1,33 @@
+/*------------------------------------*\
+  #BUTTON
+\*------------------------------------*/
+
+.button-group {
+  width: 124px;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 54px;
+  height: 54px;
+  border-radius: 100px;
+  border: 1px solid #2d3134;
+  background-color: #faf8ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__image {
+  width: 15px;
+  height: 15px;
+  object-fit: cover;
+}
+
+.btn:hover {
+  cursor: pointer;
+  filter: invert(100%);
+}

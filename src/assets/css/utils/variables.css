@@ -1,0 +1,17 @@
+/*-----------------------------*\
+    #CSS VARIABLES
+\*-----------------------------*/
+
+:root {
+  --primary-font: "Inter";
+  --fw-bold: 700;
+  --fw-semibold: 600;
+  --fw-medium: 500;
+  --fw-regular: 400;
+  --primary-color: #f66f4d;
+  --dark-color: #2d3134;
+  --gray-color: #939597;
+  --text-color: #5b5f62;
+  --text-blue: #2e476b;
+  --text-light: #9498a4;
+}

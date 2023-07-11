@@ -1,11 +1,5 @@
-@import "reset.css";
-@import "global.css";
-@import "header.css";
-@import "hero.css";
-@import "categories.css";
-@import "experience.css";
-@import "popular-destination.css";
-@import "top-destination.css";
-@import "testimonial.css";
-@import "subcribe.css";
-@import "footer.css";
+@import url(utils/index.css);
+@import url(bases/index.css);
+@import url(components/index.css);
+@import url(layout/index.css);
+@import url(sections/index.css);

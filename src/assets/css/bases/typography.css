@@ -1,37 +1,3 @@
-/*-----------------------------*\
-    #CSS VARIABLES
-\*-----------------------------*/
-
-:root {
-  --primary-font: "Inter";
-  --fw-bold: 700;
-  --fw-semibold: 600;
-  --fw-medium: 500;
-  --fw-regular: 400;
-  --primary-color: #f66f4d;
-  --dark-color: #2d3134;
-  --gray-color: #939597;
-  --text-color: #5b5f62;
-  --text-blue: #2e476b;
-  --text-light: #9498a4;
-}
-
-/*-----------------------------*\
-    #GLOBAL ELEMENTS
-\*-----------------------------*/
-
-* {
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.wrapper {
-  width: 1440px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  background-color: #faf8ed;
-}
 /*-----------------------------------------*\
   #TYPOGRAPHY ELEMENT
 \*-----------------------------------------*/
@@ -42,10 +8,6 @@ a {
   text-align: center;
   letter-spacing: 0.16px;
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 p {
@@ -89,8 +51,8 @@ h4 {
 }
 
 /*-----------------------------------------*\
-  #TEXT CLASSES
-\*-----------------------------------------*/
+    #TEXT CLASSES
+  \*-----------------------------------------*/
 
 .text {
   color: var(--text-color);
@@ -131,75 +93,41 @@ h4 {
   line-height: 26px;
 }
 
-/*------------------------------------*\
-  #BUTTON
-\*------------------------------------*/
-
-.button-group {
-  width: 124px;
-  height: 54px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.btn {
-  width: 54px;
-  height: 54px;
-  border-radius: 100px;
-  border: 1px solid #2d3134;
-  background-color: #faf8ed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn__image {
-  width: 15px;
-  height: 15px;
-  object-fit: cover;
-}
-
-.btn:hover {
-  cursor: pointer;
-  filter: invert(100%);
-}
-
 /*-----------------------------*\
-    #SET FONT FAMILY
-\*-----------------------------*/
+      #SET FONT FAMILY
+  \*-----------------------------*/
 
 @font-face {
   font-family: "Inter";
   font-weight: 400;
   font-style: normal;
-  src: url(../fonts/Inter/static/Inter-Regular.ttf) format("truetype");
+  src: url(../../fonts/Inter/static/Inter-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Inter";
   font-weight: 500;
   font-style: normal;
-  src: url(../fonts/Inter/static/Inter-Medium.ttf) format("truetype");
+  src: url(../../fonts/Inter/static/Inter-Medium.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Inter";
   font-weight: 600;
   font-style: normal;
-  src: url(../fonts/Inter/static/Inter-SemiBold.ttf) format("truetype");
+  src: url(../../fonts/Inter/static/Inter-SemiBold.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Poppins";
   font-weight: 400;
   font-style: normal;
-  src: url(../fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+  src: url(../../fonts/Poppins/Poppins-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Sen";
   font-weight: 700;
   font-style: normal;
-  src: url(../fonts/Sen/Sen-Bold.ttf) format("truetype");
+  src: url(../../fonts/Sen/Sen-Bold.ttf) format("truetype");
 }
