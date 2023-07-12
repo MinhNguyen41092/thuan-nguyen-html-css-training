@@ -1,6 +1,6 @@
 .popular-destination__container {
   height: 707px;
-  margin: 50px 87px 50px 135px;
+  padding: 50px 87px 50px 135px;
   display: flex;
   flex-direction: column;
 }

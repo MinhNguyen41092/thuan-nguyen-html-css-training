@@ -4,7 +4,7 @@
   margin: 74px 135px 46px 135px;
   border-radius: 30px;
   background-color: #ffd482;
-  background-image: url(/src/assets/images/subcribe/Intersect.png);
+  background-image: url(/src/assets/images/subcribe/intersect-background.png);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +24,7 @@
   margin-top: 16px;
 }
 
-.subcribe__input {
+.subcribe__form {
   width: 450px;
   height: 60px;
   border-radius: 12px;
@@ -33,15 +33,19 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 40px;
+  overflow: hidden;
 }
 
-.subcribe__input__text {
+.subcribe__form__input {
   font-size: 14px;
   line-height: 14px;
   margin-left: 26px;
   border: none;
+  width: 300px;
 }
 
-.subcribe__input__image {
-  margin-top: 10px;
+.subcribe__form__submit {
+  background-color: #fff;
+  border: none;
+  padding-top: 10px;
 }

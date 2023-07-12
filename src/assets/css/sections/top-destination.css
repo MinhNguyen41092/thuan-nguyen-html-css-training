@@ -1,6 +1,7 @@
 .top-destination__container {
   height: 811px;
-  margin: 0 135px;
+  padding: 0 135px;
+  margin-top: 53px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,7 +29,7 @@
   border: 1px solid #3d3d3d;
   font-family: "Poppins";
   font-weight: var(--fw-regular);
-  background-color: #faf8ed;
+  background-color: var(--background-color);
 }
 
 .top-destination__button:hover {

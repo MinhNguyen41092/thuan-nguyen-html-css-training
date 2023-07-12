@@ -14,8 +14,8 @@
   width: 54px;
   height: 54px;
   border-radius: 100px;
-  border: 1px solid #2d3134;
-  background-color: #faf8ed;
+  border: 1px solid var(--dark-color);
+  background-color: var(--background-color);
   display: flex;
   justify-content: center;
   align-items: center;
