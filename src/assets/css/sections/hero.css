@@ -1,8 +1,9 @@
 .hero {
   padding: 0 135px;
   display: flex;
-  flex-direction: row;
   height: 720px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero__describe {
@@ -10,39 +11,28 @@
   flex-direction: column;
   width: 577px;
   height: 460px;
-  margin: 74px 0 84px 0;
 }
 
 .hero__text {
   margin-top: 26px;
 }
 
-.hero__searchbox {
+.hero__search-box {
   width: 500px;
   height: 76px;
   background-color: #fdfeff;
   border-radius: 38px;
   margin-top: 44px;
-  padding-left: 28px;
   display: flex;
-  flex-direction: row;
   align-items: center;
+  justify-content: space-around;
 }
 
-.searchbox__img {
+.search-box__img {
   margin-left: 26px;
 }
 
-.searchbox__line {
-  margin: 0 34px;
-}
-
-.searchbox__icon {
-  margin-left: 57px;
-}
-
 .hero__image {
-  margin: 10px 10px 53px 67px;
   width: 534px;
   height: 555px;
 }

@@ -1,27 +1,26 @@
 .categories-container {
-  margin: 0 135px;
+  padding: 18px 135px 0 135px;
   display: flex;
   flex-direction: column;
   height: 542px;
 }
 
 .categories__menu {
-  width: 1170px;
   height: 158px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.categories__text {
-  display: flex;
+.categories__title {
   width: 370px;
-  height: 78px;
-  margin-top: 24px;
+  height: 158px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .categories__cards {
-  width: 1170px;
   height: 274px;
   display: flex;
   margin-top: 60px;
