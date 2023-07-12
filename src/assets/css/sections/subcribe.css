@@ -37,9 +37,10 @@
 }
 
 .subcribe__form__input {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 14px;
   margin-left: 26px;
+  outline: none;
   border: none;
   width: 300px;
 }
@@ -48,4 +49,5 @@
   background-color: #fff;
   border: none;
   padding-top: 10px;
+  cursor: pointer;
 }
