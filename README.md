@@ -4,7 +4,7 @@
 
 - Understand HTML/CSS properties and use them correctly
 - Slice from Sketch to HTML/CSS
-- Understand the concepts of Flex
+- Understand the concepts of Figma
 
 ## Design on figma:
 
@@ -19,6 +19,7 @@
 ## Team size:
 
 - 1 dev: Thuan Nguyen
+- Mentor: Minh Nguyen
 
 ## Folder structure
 
@@ -44,17 +45,18 @@ practice-one
 git clone https://github.com/MinhNguyen41092/thuan-nguyen-html-css-training
 ```
 
-- Step 02: Change to branch /practice-one:
+- Step 02: Move to folder which just cloned in your computer:
+
+```bash
+cd thuan-nguyen-html-css-training
+```
+
+- Step 03: Change to branch /practice-one:
 
 ```bash
 git checkout practice-one
 ```
 
-- Step 03: Move to folder which just cloned in your computer:
-
-```bash
-cd thuan-nguyen-html-css-training
-```
 
 - Step 04: Next open folder practice-one
 
@@ -62,4 +64,14 @@ cd thuan-nguyen-html-css-training
 cd practice-one
 ```
 
-- Step 05: Open index.html
+- Step 05: Install dependencies project
+
+```bash
+npm i
+```
+
+- Step 06: Run project
+
+```bash
+npm start
+```

@@ -1,6 +1,6 @@
-.experience-container {
+.experience__container {
   height: 682px;
-  margin: 0 135px 0 70px;
+  margin: 58px 135px 0 70px;
   display: flex;
   justify-content: space-between;
 }

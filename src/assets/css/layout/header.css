@@ -12,8 +12,6 @@
   align-items: center;
   gap: 0 72px;
 }
-.header__logo {
-}
 
 .header__navbar {
   display: flex;
@@ -26,7 +24,7 @@
   margin: 24px 0;
   border: 2px solid var(--primary-color);
   border-radius: 20px;
-  background-color: #faf8ed;
+  background-color: var(--background-color);
   font-family: "Poppins";
   font-size: 16px;
   font-weight: var(--fw-medium);
