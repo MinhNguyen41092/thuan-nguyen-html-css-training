@@ -19,10 +19,22 @@
   margin-top: 20px;
 }
 
-.footer__icon {
+.footer__icons {
   width: 124px;
   height: 32px;
   margin-top: 40px;
+  display: flex;
+  gap: 0 15px;
+}
+
+.footer__icon {
+  width: 32px;
+  height: 32 px;
+  color: var(--text-color);
+}
+
+.footer__icon:hover {
+  cursor: pointer;
 }
 
 .footer__menu {
@@ -45,4 +57,11 @@
   display: flex;
   flex-direction: column;
   gap: 20px 0;
+}
+
+.footer__menu__content {
+  color: #676a6c;
+  font-family: "Inter";
+  font-weight: var(--fw-regular);
+  text-align: left;
 }
