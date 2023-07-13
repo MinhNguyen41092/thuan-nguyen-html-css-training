@@ -1,14 +1,11 @@
 .footer__container {
   margin: 15px 0 60px 0;
-  display: flex;
-  justify-content: space-around;
 }
 
 .footer__info {
   margin-top: 79px;
-  display: flex;
-  flex-direction: column;
 }
+
 .footer__logo {
   width: 98px;
   height: 35px;
@@ -43,24 +40,17 @@
   gap: 0 113px;
 }
 
-.footer__menu__info {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer__menu__title {
   font-weight: var(--fw-medium);
 }
 
 .footer__menu__contents {
   margin-top: 25px;
-  display: flex;
-  flex-direction: column;
   gap: 20px 0;
 }
 
 .footer__menu__content {
-  color: #676a6c;
+  color: var(--content-color);
   font-family: "Inter";
   font-weight: var(--fw-regular);
   text-align: left;

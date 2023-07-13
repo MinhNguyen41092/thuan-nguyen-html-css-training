@@ -1,8 +1,6 @@
 .experience__container {
   height: 682px;
   margin: 58px 135px 0 70px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .experience__image {
@@ -16,8 +14,6 @@
   width: 538px;
   height: 514px;
   margin: 110px 0 90px 152px;
-  display: flex;
-  flex-direction: column;
   gap: 20px 0;
 }
 
@@ -30,19 +26,14 @@
 
 .experience__cards {
   margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .experience__card {
   width: 166px;
   height: 178px;
   border-radius: 14px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: var(--bg-light-color);
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   padding: 10 0 10 26px;
 }
 

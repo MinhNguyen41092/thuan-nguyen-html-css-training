@@ -1,0 +1,48 @@
+/*-----------------------------------------*\
+    #COMMON FLEX
+\*-----------------------------------------*/
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-around-center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-colum-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-column-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-column-around {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

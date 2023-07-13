@@ -1,15 +1,8 @@
 .header__container {
   height: 102px;
   padding: 0 135px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
 .header__menu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   gap: 0 72px;
 }
 

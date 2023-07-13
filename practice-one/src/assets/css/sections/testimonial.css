@@ -1,19 +1,11 @@
 .testimonial__container {
   height: 671px;
   margin-top: 37px;
-  display: flex;
+  padding: 66px 135px 66px 203px;
 }
 
 .testimonial__describe {
   width: 537px;
-  height: 461px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 105px;
-}
-
-.testimonial__image {
-  margin: 66px 175px 66px 203px;
 }
 
 .testimonial__title {
@@ -29,8 +21,6 @@
   border-radius: 14px;
   background: #fff;
   padding: 32px 34px 0 30px;
-  display: flex;
-  flex-direction: column;
 }
 
 .testimonial__text {
@@ -44,14 +34,10 @@
 }
 
 .testimonial__info {
-  display: flex;
   margin-top: 17px;
-  justify-content: space-between;
 }
 
 .testimonial__id {
-  display: flex;
-  flex-direction: column;
   gap: 8px 0;
 }
 

@@ -1,15 +1,11 @@
 .popular-destination__container {
   height: 707px;
   padding: 50px 87px 50px 135px;
-  display: flex;
-  flex-direction: column;
 }
 
 .popular-destination__menu {
   width: 1170px;
   height: 132px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .popular-destination__title {
@@ -19,8 +15,6 @@
 
 .popular-destination__cards {
   margin-top: 35px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .popular-destination__card {
@@ -28,8 +22,6 @@
   height: 440px;
   border-radius: 16px;
   border: 2px solid #fff;
-  display: flex;
-  flex-direction: column;
 }
 
 .popular-destination__image {
