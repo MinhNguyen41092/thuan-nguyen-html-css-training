@@ -20,7 +20,7 @@
 .hero__search-box {
   width: 500px;
   height: 76px;
-  background-color: #fdfeff;
+  background-color: var(--white-color);
   border-radius: 38px;
   margin-top: 44px;
   display: flex;
@@ -43,7 +43,7 @@
   background-image: url(/src/assets/images/hero/search-icon.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #fdfeff;
+  background-color: var(--white-color);
   width: 54px;
   height: 54px;
   border: none;

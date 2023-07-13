@@ -34,6 +34,8 @@
 
 .popular-destination__image {
   margin: 12px 12px 24px;
+  width: 362px;
+  height: 352px;
 }
 
 .popular-destination__card__title {

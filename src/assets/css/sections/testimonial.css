@@ -49,7 +49,7 @@
   justify-content: space-between;
 }
 
-.tesimonial__id {
+.testimonial__id {
   display: flex;
   flex-direction: column;
   gap: 8px 0;

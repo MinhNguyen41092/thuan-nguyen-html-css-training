@@ -3,11 +3,10 @@
 \*------------------------------------*/
 
 .button-group {
-  width: 124px;
-  height: 54px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 0 18px;
 }
 
 .btn {
@@ -25,6 +24,15 @@
   width: 15px;
   height: 15px;
   object-fit: cover;
+}
+
+.btn__white {
+  background-color: var(--white-color);
+}
+
+.btn__small {
+  width: 40px;
+  height: 40px;
 }
 
 .btn:hover {
