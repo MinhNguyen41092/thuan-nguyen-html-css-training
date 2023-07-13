@@ -46,8 +46,13 @@
 }
 
 .subcribe__form__submit {
+  background-image: url(/src/assets/images/subcribe/icon-button.png);
   background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 54px;
   border: none;
-  padding-top: 10px;
   cursor: pointer;
+  margin-top: 10px;
 }

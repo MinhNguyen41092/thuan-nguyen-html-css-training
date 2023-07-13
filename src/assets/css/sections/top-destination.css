@@ -26,7 +26,7 @@
 .top-destination__button {
   padding: 10px 20px;
   border-radius: 30px;
-  border: 1px solid #3d3d3d;
+  border: 1px solid var(--border-color);
   font-family: "Poppins";
   font-weight: var(--fw-regular);
   background-color: var(--background-color);

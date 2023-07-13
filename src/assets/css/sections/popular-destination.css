@@ -33,7 +33,7 @@
 }
 
 .popular-destination__image {
-  margin: 12px 12px 24px 12px;
+  margin: 12px 12px 24px;
 }
 
 .popular-destination__card__title {
@@ -61,7 +61,7 @@
   border-radius: 46px;
   border: 1px solid var(--dark-color);
   color: var(--dark-color);
-  background-color: #faf8ed;
+  background-color: var(--background-color);
 }
 
 .popular-destination__card_button:hover {

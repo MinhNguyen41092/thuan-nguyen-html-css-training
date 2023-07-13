@@ -26,10 +26,28 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-left: 8px;
+}
+
+.search-box__input {
+  width: 102px;
+  border: none;
+  outline: none;
 }
 
 .search-box__img {
   margin-left: 26px;
+}
+
+.search-box__submit {
+  background-image: url(/src/assets/images/hero/search-icon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fdfeff;
+  width: 54px;
+  height: 54px;
+  border: none;
+  cursor: pointer;
 }
 
 .hero__image {
