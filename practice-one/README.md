@@ -32,8 +32,24 @@ practice-one
       |-- fonts
       |-- images
     |-- components
+      |-- button.html
+      |-- button-small.html
     |-- sections
+      |-- categories
+      |-- experience
+      |-- footer
+      |-- header
+      |-- hero
+      |-- popular-destination
+      |-- subcribe
+      |-- testimonial
+      |-- top-destination
     |-- index.html
+|-- .gitignore
+|-- .parcelrc
+|-- .posthtmlrc
+|-- package-lock.json
+|-- package.json
 |-- README.md
 ```
 
