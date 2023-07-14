@@ -22,9 +22,13 @@
 }
 
 .search-box__input {
-  width: 102px;
-  border: none;
-  outline: none;
+  width: 137px;
+  font-family: "Inter";
+  font-weight: var(--fw-regular);
+}
+
+.search-box__input:hover {
+  cursor: pointer;
 }
 
 .search-box__img {
