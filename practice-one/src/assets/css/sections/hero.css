@@ -12,7 +12,7 @@
   margin-top: 26px;
 }
 
-.hero__search-box {
+.hero__search-boxs {
   width: 500px;
   height: 76px;
   background-color: var(--white-color);
@@ -21,14 +21,14 @@
   padding-left: 8px;
 }
 
+.hero__search-box:hover {
+  cursor: pointer;
+}
+
 .search-box__input {
   width: 137px;
   font-family: "Inter";
   font-weight: var(--fw-regular);
-}
-
-.search-box__input:hover {
-  cursor: pointer;
 }
 
 .search-box__img {
