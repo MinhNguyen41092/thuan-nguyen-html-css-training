@@ -1,0 +1,52 @@
+.subcribe__container {
+  width: 1170px;
+  height: 358px;
+  margin: 74px 135px 46px 135px;
+  border-radius: 30px;
+  background-color: #ffd482;
+  background-image: url(/src/assets/images/subcribe/intersect-background.png);
+}
+
+.subcribe__title {
+  font-size: 40px;
+  letter-spacing: 0.06px;
+  margin-top: 75px;
+}
+
+.subcribe__text {
+  width: 415px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.subcribe__form {
+  width: 450px;
+  height: 60px;
+  border-radius: 12px;
+  background-color: var(--white-color);
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.subcribe__form__input {
+  font-size: 18px;
+  line-height: 14px;
+  margin-left: 26px;
+  outline: none;
+  border: none;
+  width: 300px;
+}
+
+.subcribe__form__submit {
+  background-image: url(/src/assets/images/subcribe/icon-button.png);
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 54px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
