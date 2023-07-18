@@ -1,0 +1,14 @@
+{
+  "name": "my-project",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "posthtml-doctype": "^1.1.1"
+  }
+}
