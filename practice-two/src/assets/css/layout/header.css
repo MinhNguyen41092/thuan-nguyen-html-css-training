@@ -1,0 +1,11 @@
+/* Mobile */
+@media (width <= 320px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar__menu {
+    text-transform: uppercase;
+  }
+}

@@ -6,7 +6,9 @@
     "build": "parcel build"
   },
   "devDependencies": {
-    "parcel": "^2.9.3"
+    "@parcel/resolver-glob": "^2.9.3",
+    "parcel": "^2.9.3",
+    "posthtml-include": "^1.7.4"
   },
   "dependencies": {
     "posthtml-doctype": "^1.1.1"
