@@ -1,0 +1,28 @@
+.header__container {
+  height: 102px;
+  padding: 0 135px;
+}
+.header__menu {
+  gap: 0 72px;
+}
+
+.header__navbar {
+  display: flex;
+  gap: 0 36px;
+}
+
+.header__button {
+  width: 174px;
+  height: 54px;
+  margin: 24px 0;
+  border: 2px solid var(--primary-color);
+  border-radius: 20px;
+  background-color: var(--background-color);
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: var(--fw-medium);
+}
+
+.header__button:hover {
+  cursor: pointer;
+}
