@@ -1,0 +1,20 @@
+/*------------------------------------*\
+  #BUTTON
+\*------------------------------------*/
+
+.btn:hover {
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: var(--primary-color);
+}
+
+.btn--orange {
+  background-color: var(--orange-color);
+}
+
+.btn--orange:hover {
+  background-color: var(--trans-orange-color);
+}

@@ -64,6 +64,26 @@ h6 {
   #TEXT CLASSES
 \*-----------------------------------------*/
 
+.text {
+  font-size: 16px;
+}
+
+.text--primary {
+  color: var(--primary-color);
+}
+
+.text--light {
+  color: var(--light-color);
+}
+
+.text--bold {
+  font-weight: var(--fw-bold);
+}
+
+.text--extrabold {
+  font-weight: var(--fw-extrabold);
+}
+
 /*-----------------------------------------*\
   #SET FONT FAMILY
 \*-----------------------------------------*/
