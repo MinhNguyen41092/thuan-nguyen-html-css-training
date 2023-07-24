@@ -92,26 +92,26 @@ h6 {
   font-family: "Poppins";
   font-weight: 300;
   font-style: normal;
-  src: url(../../fonts/Poppins-Light.ttf);
+  src: url(../../assets/fonts/Poppins-Light.ttf);
 }
 
 @font-face {
   font-family: "Poppins";
   font-weight: 400;
   font-style: normal;
-  src: url(../../fonts/Poppins-Regular.ttf);
+  src: url(../../assets/fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
   font-family: "Poppins";
   font-weight: 700;
   font-style: normal;
-  src: url(../../fonts/Poppins-Bold.ttf);
+  src: url(../../assets/fonts/Poppins-Bold.ttf);
 }
 
 @font-face {
   font-family: "Poppins";
   font-weight: 900;
   font-style: normal;
-  src: url(../../fonts/Poppins-Black.ttf);
+  src: url(../../assets/fonts/Poppins-Black.ttf);
 }
