@@ -98,6 +98,7 @@
   }
 }
 
+/* Desktop */
 @media (min-width: 1440px) {
   .hero {
     flex-direction: row;
