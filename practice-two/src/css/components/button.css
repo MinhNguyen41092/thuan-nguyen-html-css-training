@@ -2,6 +2,14 @@
   #BUTTON
 \*------------------------------------*/
 
+.btn {
+  width: 288px;
+  height: 64px;
+  font-size: 24px;
+  border: none;
+  border-radius: 2px;
+}
+
 .btn:hover {
   transition: background-color 0.2s ease;
   cursor: pointer;
@@ -17,4 +25,11 @@
 
 .btn--orange:hover {
   background-color: var(--trans-orange-color);
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .btn {
+    width: 320px;
+  }
 }

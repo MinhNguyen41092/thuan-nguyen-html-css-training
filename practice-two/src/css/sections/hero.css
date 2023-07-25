@@ -23,13 +23,6 @@
   align-items: center;
 }
 
-.hero__title__cta__btn {
-  font-size: 24px;
-  padding: 16px 80px 12px 80px;
-  border: none;
-  border-radius: 2px;
-}
-
 .hero__title__cta__main {
   display: flex;
   flex-direction: column;
@@ -43,7 +36,8 @@
 
 .hero__title__cta__sub {
   margin-top: 13.5px;
-  padding: 4.5px 7px 3.5px 8px;
+  width: 122px;
+  height: 32px;
   color: var(--light-color);
   font-size: 16px;
   font-weight: var(--fw-bold);

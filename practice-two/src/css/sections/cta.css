@@ -30,10 +30,6 @@
 
 .cta__btn {
   margin-top: 20px;
-  font-size: 24px;
-  padding: 16px 80px 12px 80px;
-  border: none;
-  border-radius: 2px;
 }
 
 /* Tablet */
@@ -70,7 +66,6 @@
 
   .cta__btn {
     margin-top: 32px;
-    padding: 17px 105px 13px 105px;
   }
 }
 
