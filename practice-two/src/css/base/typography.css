@@ -64,6 +64,26 @@ h6 {
   #TEXT CLASSES
 \*-----------------------------------------*/
 
+.text {
+  font-size: 16px;
+}
+
+.text--primary {
+  color: var(--primary-color);
+}
+
+.text--light {
+  color: var(--light-color);
+}
+
+.text--bold {
+  font-weight: var(--fw-bold);
+}
+
+.text--extrabold {
+  font-weight: var(--fw-extrabold);
+}
+
 /*-----------------------------------------*\
   #SET FONT FAMILY
 \*-----------------------------------------*/
@@ -72,26 +92,26 @@ h6 {
   font-family: "Poppins";
   font-weight: 300;
   font-style: normal;
-  src: url(../../fonts/Poppins-Light.ttf);
+  src: url(../../assets/fonts/Poppins-Light.ttf);
 }
 
 @font-face {
   font-family: "Poppins";
   font-weight: 400;
   font-style: normal;
-  src: url(../../fonts/Poppins-Regular.ttf);
+  src: url(../../assets/fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
   font-family: "Poppins";
   font-weight: 700;
   font-style: normal;
-  src: url(../../fonts/Poppins-Bold.ttf);
+  src: url(../../assets/fonts/Poppins-Bold.ttf);
 }
 
 @font-face {
   font-family: "Poppins";
   font-weight: 900;
   font-style: normal;
-  src: url(../../fonts/Poppins-Black.ttf);
+  src: url(../../assets/fonts/Poppins-Black.ttf);
 }
