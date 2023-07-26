@@ -1,0 +1,133 @@
+.feature-ex {
+  margin-top: 89px;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-ex__main {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.feature-ex__main__text {
+  margin-top: 15px;
+  line-height: 40px;
+}
+
+.feature-ex__products {
+  margin-top: 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px 0;
+}
+
+.feature-ex__product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-ex__product__text {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px 0;
+}
+
+.feature-ex__product__text p {
+  line-height: 24px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .feature-ex__main__text {
+    max-width: 470px;
+  }
+
+  .feature-ex__products {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .feature-ex__product {
+    max-width: 288px;
+    min-height: 185px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+  .feature-ex {
+    width: 100%;
+    padding: 0 185px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .feature-ex__img {
+    width: 470px;
+    height: 560px;
+  }
+
+  .feature-ex__img img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+
+  .feature-ex__main {
+    margin-top: 0;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .feature-ex__main h1 {
+    font-weight: var(--fw-regular);
+  }
+
+  .feature-ex__products {
+    margin-top: 31px;
+    flex-direction: column;
+  }
+
+  .feature-ex__product {
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 462px;
+    min-height: 0;
+    gap: 0 28px;
+  }
+
+  .feature-ex__product:nth-child(2) {
+    gap: 0 13px;
+  }
+
+  .feature-ex__product:nth-child(3) {
+    gap: 0 34px;
+  }
+
+  .feature-ex__product:nth-child(3) {
+    gap: 0 34px;
+  }
+
+  .feature-ex__product:nth-child(4) {
+    gap: 0 24px;
+  }
+
+  .feature-ex__product__text {
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 0;
+  }
+}

@@ -1,5 +1,5 @@
-.video {
-  background-image: url(../../assets/images/video/background.svg);
+.cta {
+  background-image: url(../../assets/images/cta/background.svg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -7,95 +7,90 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 16px;
+  padding: 0 16px 120px 16px;
   margin-top: 75px;
 }
 
-.video img {
+.cta img {
   width: 288px;
   height: 208px;
   margin-top: 152px;
 }
 
-.video__cta {
+.cta__main {
   margin-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.video__cta h3 {
+.cta__main p {
   margin-top: 18px;
+  line-height: 40px;
 }
 
-.video__btn {
+.cta__btn {
   margin-top: 20px;
-  font-size: 24px;
-  padding: 16px 80px 12px 80px;
-  border: none;
-  border-radius: 2px;
-  border: none;
 }
 
 /* Tablet */
 @media (min-width: 768px) {
-  .video {
-    background-image: url(../../assets/images/video/background-tablet.svg);
+  .cta {
+    background-image: url(../../assets/images/cta/background-tablet.svg);
     margin: auto;
   }
 
-  .video img {
+  .cta img {
     width: 736px;
     height: 547px;
     margin-top: 221px;
   }
 
-  .video__cta {
+  .cta__main {
     margin: 72px 112px 0px 112px;
   }
 
-  .video__cta h1 {
+  .cta__main h1 {
     color: var(--primary-color);
     font-weight: var(--fw-extrabold);
     padding: 0 50px;
   }
 
-  .video__cta span {
+  .cta__main span {
     color: var(--black-color);
     font-weight: var(--fw-regular);
   }
 
-  .video__cta p {
+  .cta__main p {
     margin-top: 17px;
   }
 
-  .video__btn {
+  .cta__btn {
     margin-top: 32px;
-    padding: 17px 105px 13px 105px;
   }
 }
 
 @media (min-width: 1440px) {
-  .video {
-    padding: 0 135px;
+  .cta {
+    padding: 0 135px 120px;
     flex-direction: row-reverse;
     justify-content: space-between;
   }
 
-  .video img {
+  .cta img {
     width: 570px;
     height: 408px;
     margin-top: 287px;
   }
 
-  .video__cta {
+  .cta__main {
     margin: 253px 0 0 0;
     align-items: flex-start;
     text-align: left;
     max-width: 470px;
   }
 
-  .video__cta h1 {
+  .cta__main h1 {
     padding: 0%;
     max-width: 400px;
   }
