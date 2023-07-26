@@ -24,8 +24,9 @@
   align-items: center;
 }
 
-.cta__main h3 {
+.cta__main p {
   margin-top: 18px;
+  line-height: 40px;
 }
 
 .cta__btn {
