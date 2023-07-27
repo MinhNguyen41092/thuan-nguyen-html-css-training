@@ -1,6 +1,8 @@
 .gallery {
   background-color: var(--gray-color);
   padding: 0 16px;
+  display: flex;
+  flex-direction: column;
   margin-top: 75px;
 }
 
@@ -10,4 +12,40 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 80px;
+}
+
+.gallery__title__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.gallery__title__main p {
+  line-height: 40px;
+  margin-top: 18px;
+}
+
+.gallery__title__main h3 {
+  margin: 30px 0 8px 0;
+}
+
+.gallery__title__main img:hover {
+  cursor: pointer;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .gallery__title {
+  }
+
+  .gallery__title__main p {
+    max-width: 544px;
+  }
+
+  .gallery__title__main h3 {
+    margin-top: 21px;
+  }
 }

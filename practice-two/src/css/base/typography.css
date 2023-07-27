@@ -58,6 +58,10 @@ h3 {
   color: var(--light-color);
 }
 
+.text--black {
+  color: var(--black-color);
+}
+
 .text--regular {
   font-weight: var(--fw-regular);
 }
