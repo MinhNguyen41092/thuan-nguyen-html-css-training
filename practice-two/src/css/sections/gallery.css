@@ -57,19 +57,11 @@
   }
 
   .gallery__images {
-    grid-template-areas:
-      "h1 h2"
-      "h3 h2"
-      "h3 h4"
-      "h5 h6";
-  }
-
-  .gallery__image:nth-child(2) {
-    grid-area: h2;
+    grid-template-columns: 1fr 1fr;
   }
 
   .gallery__image:nth-child(3) {
-    grid-area: h3;
+    grid-row: span 2;
   }
 }
 
