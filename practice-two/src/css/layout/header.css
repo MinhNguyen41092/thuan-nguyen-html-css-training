@@ -10,7 +10,7 @@
   height: 128px;
 }
 
-.header__logo img {
+.header__logo .logo__image {
   width: 100%;
   height: 100%;
   object-fit: contain;
