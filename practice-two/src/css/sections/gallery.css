@@ -1,6 +1,6 @@
 .gallery {
   background-color: var(--gray-color);
-  padding: 0 16px;
+  padding: 80px 16px;
   display: flex;
   flex-direction: column;
   margin-top: 75px;
@@ -12,7 +12,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 80px;
 }
 
 .gallery__main {
@@ -93,11 +92,11 @@
 @media (min-width: 1440px) {
   .gallery {
     margin: 75px 135px 0 135px;
-    padding: 0 70px;
+    padding: 70px;
   }
 
   .gallery__content {
-    margin: 70px 30px 0 30px;
+    margin: 0 30px;
     flex-direction: row-reverse;
     justify-content: space-between;
   }
@@ -109,3 +108,5 @@
     max-width: 470px;
   }
 }
+
+
