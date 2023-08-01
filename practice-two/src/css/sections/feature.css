@@ -25,13 +25,8 @@
   line-height: 40px;
 }
 
-.feature__products {
-  display: flex;
-  flex-direction: column;
-  margin-top: 30px;
-}
-
 .feature__product {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,8 +86,8 @@
     margin-top: 70px;
   }
 
-  .feature__products {
-    margin-top: 71px;
+  .feature__product {
+    margin-top: 94px;
   }
 
   .product__describe {
@@ -120,7 +115,8 @@
 /* Desktop */
 @media (min-width: 1440px) {
   .feature {
-    margin: 85px 135px;
+    margin: 86px auto;
+    max-width: 1440px;
     padding: 121px 100px 80px 100px;
     align-items: flex-start;
   }
