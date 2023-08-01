@@ -69,7 +69,8 @@
 /* Desktop */
 @media (min-width: 1440px) {
   .feature-ex {
-    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 0 185px;
     flex-direction: row-reverse;
     justify-content: space-between;
