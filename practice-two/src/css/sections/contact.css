@@ -48,6 +48,10 @@
   margin-top: 11px;
 }
 
+.form__input:focus {
+  outline: none;
+}
+
 .contact__infos {
   margin-top: 40px;
 }
