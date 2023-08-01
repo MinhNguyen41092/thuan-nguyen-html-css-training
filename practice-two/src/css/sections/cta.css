@@ -1,7 +1,8 @@
 .cta {
-  background-image: url(../../assets/images/cta/background.svg);
+  background-image: url(../../assets/images/cta/background-cta.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: -300px center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,20 +12,23 @@
   margin-top: 75px;
 }
 
-.cta img {
-  width: 288px;
-  height: 208px;
+.cta__video {
   margin-top: 152px;
 }
 
-.cta__main {
+.cta__video .video__image {
+  width: 288px;
+  height: 208px;
+}
+
+.cta__summary {
   margin-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.cta__main p {
+.cta__describe {
   margin-top: 18px;
   line-height: 40px;
 }
@@ -36,32 +40,34 @@
 /* Tablet */
 @media (min-width: 768px) {
   .cta {
-    background-image: url(../../assets/images/cta/background-tablet.svg);
-    margin: auto;
+    background-position: -1200px -200px;
   }
 
-  .cta img {
-    width: 736px;
-    height: 547px;
+  .cta__video {
     margin-top: 221px;
   }
 
-  .cta__main {
+  .cta__video .video__image {
+    width: 736px;
+    height: 547px;
+  }
+
+  .cta__summary {
     margin: 72px 112px 0px 112px;
   }
 
-  .cta__main h1 {
+  .cta__title {
     color: var(--primary-color);
     font-weight: var(--fw-extrabold);
     padding: 0 50px;
   }
 
-  .cta__main span {
+  .cta__title--black {
     color: var(--black-color);
     font-weight: var(--fw-regular);
   }
 
-  .cta__main p {
+  .cta__describe {
     margin-top: 17px;
   }
 
@@ -72,26 +78,33 @@
 
 @media (min-width: 1440px) {
   .cta {
+    margin: 0 auto;
+    background-position: center center;
     padding: 0 135px 120px;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
   }
 
-  .cta img {
-    width: 570px;
-    height: 408px;
+  .cta__video {
     margin-top: 287px;
   }
 
-  .cta__main {
+  .cta__video .video__image {
+    width: 570px;
+    height: 408px;
+  }
+
+  .cta__summary {
     margin: 253px 0 0 0;
     align-items: flex-start;
     text-align: left;
     max-width: 470px;
   }
 
-  .cta__main h1 {
-    padding: 0%;
+  .cta__title {
+    padding: 0;
     max-width: 400px;
   }
 }

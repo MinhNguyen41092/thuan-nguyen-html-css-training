@@ -37,4 +37,7 @@
 
 /* Desktop */
 @media (min-width: 1440px) {
+  .background {
+    background-position: center -300px;
+  }
 }
