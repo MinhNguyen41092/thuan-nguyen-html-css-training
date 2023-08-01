@@ -96,7 +96,8 @@
 /* Desktop */
 @media (min-width: 1440px) {
   .gallery {
-    margin: 75px 135px 0 135px;
+    max-width: 1170px;
+    margin: 70 auto;
     padding: 70px;
   }
 
