@@ -89,6 +89,8 @@
 @media (min-width: 1440px) {
   .review {
     padding: 80px 135px;
+    max-width: 1440px;
+    margin: 0 auto;
   }
 
   .review__logo--mobile {
