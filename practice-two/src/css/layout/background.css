@@ -38,6 +38,6 @@
 /* Desktop */
 @media (min-width: 1440px) {
   .background {
-    background-image: url(../../assets/images/background/background-desktop.png);
+    background-position: center -300px;
   }
 }

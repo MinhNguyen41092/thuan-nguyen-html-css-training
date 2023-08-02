@@ -1,58 +1,21 @@
-<section class="hero">
-  <div class="hero__title">
-    <h1>
+<section class="hero d-flex-center">
+  <div class="hero__summary">
+    <h2>
       Couch that
       <span class="text--primary text--extrabold">brings joy</span>
       in your home
-    </h1>
-    <p class="text--medium">
-      Designed with comfort and decoration in mind this sofa is absolutely perfect for your minimal home look. Show off
-      to your family & friends and get awesome feedback, don’t forget to share our number with them!
-    </p>
-    <div class="hero__title__cta">
-      <include src="components/button.html">
-        { "text": "Buy Now", "class": "hero__title__cta__btn btn btn--orange text--light text--extrabold" }
-      </include>
-      <div class="hero__title__cta__main">
-        <h5 class="hero__title__cta__price">only $240</h5>
-        <include src="components/button.html">
-          { "text": "no extra cost", "class": "hero__title__cta__sub btn btn--primary text--light text--bold" }
-        </include>
-      </div>
+    </h2>
+    <p class="text--medium hero__describe">Designed with comfort and decoration in mind this sofa is absolutely perfect for your minimal home look. Show off to your family & friends and get awesome feedback, don’t forget to share our number with them!</p>
+    <div class="hero__cta">
+      <include src="components/button.html"> { "text": "Buy Now", "class": "hero__cta__btn btn btn--orange text--light text--extrabold" } </include>
+      <p class="hero__cta__price d-flex-center">only $240 <span class="price--sub text text--light text--bold">no extra cost</span></p>
     </div>
   </div>
 
-  <div class="hero__features">
-    <div class="hero__feature">
-      <img src="assets/icons/hero/icon-shipping.png" alt="Free-shipping" />
-      <div class="hero__feature__text">
-        <h2 class="text--primary">Free Shipping</h2>
-        <p>This product is eligible for free shipping, so you don’t need to pay extra</p>
-      </div>
-    </div>
-    <div class="hero__feature">
-      <img src="assets/icons/hero/icon-return.png" alt="Free-shipping" />
-      <div class="hero__feature__text">
-        <h2 class="text--primary">Free Return</h2>
-        <p>You can send back to us without any cost if you don’t like the design or anything else</p>
-      </div>
-    </div>
-    <div class="hero__feature">
-      <img src="assets/icons/hero/icon-safe.png" alt="Free-shipping" />
-      <div class="hero__feature__text">
-        <h2 class="text--primary">Safe & Secure</h2>
-        <p>
-          We provide quality after sales service to our beloved customer, you will always be safe and your product will
-          always be secured
-        </p>
-      </div>
-    </div>
-    <div class="hero__feature">
-      <img src="assets/icons/hero/icon-support.png" alt="Free-shipping" />
-      <div class="hero__feature__text">
-        <h2 class="text--primary">24/7 Support</h2>
-        <p>We are always available to help you whenever you need us the most</p>
-      </div>
-    </div>
-  </div>
+  <ul class="hero__features">
+    <include src="components/hero-feature.html"> { "icon": "assets/icons/hero/icon-shipping.png", "title": "Free Shipping", "text": "This product is eligible for free shipping, so you don’t need to pay extra" } </include>
+    <include src="components/hero-feature.html"> { "icon": "assets/icons/hero/icon-return.png", "title": "Free Return", "text": "You can send back to us without any cost if you don’t like the design or anything else" } </include>
+    <include src="components/hero-feature.html"> { "icon": "assets/icons/hero/icon-safe.png", "title": "Safe & Secure", "text": "We provide quality after sales service to our beloved customer, you will always be safe and your product will always be secured" }</include>
+    <include src="components/hero-feature.html"> { "icon": "assets/icons/hero/icon-support.png", "title": "24/7 Support" , "text": "We are always available to help you whenever you need us the most" } </include>
+  </ul>
 </section>

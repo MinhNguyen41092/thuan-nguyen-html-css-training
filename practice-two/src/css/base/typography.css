@@ -24,19 +24,19 @@ p {
   line-height: 24px;
 }
 
-h1 {
+h2 {
   font-weight: var(--fw-regular);
   font-size: 48px;
   line-height: 56px;
 }
 
-h2 {
+h3 {
   font-weight: var(--fw-extrabold);
   font-size: 24px;
   color: var(--primary-color);
 }
 
-h3 {
+h4 {
   font-weight: var(--fw-regular);
   font-size: 16px;
   line-height: 24px;
@@ -56,6 +56,10 @@ h3 {
 
 .text--light {
   color: var(--light-color);
+}
+
+.text--black {
+  color: var(--black-color);
 }
 
 .text--regular {

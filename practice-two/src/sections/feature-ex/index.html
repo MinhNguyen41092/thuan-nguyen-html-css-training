@@ -1,49 +1,15 @@
 <section class="feature-ex">
-  <div class="feature-ex__img"><img src="assets/images/feature-ex/avatar-img.png" alt="avatar-img" /></div>
-  <div class="feature-ex__main">
-    <h1 class="text--primary text--extrabold">What Else!</h1>
-    <p class="text--medium feature-ex__main__text">
-      We are amazed to share some more features that might help you to make your purchase decision. We love our product
-      and we want you to love the way we do!
-    </p>
-
+  <div class="feature-ex__logo">
+    <img src="assets/images/feature-ex/avatar-img.png" alt="logo imgae" class="logo__image" />
+  </div>
+  <div class="feature-ex__content">
+    <h2 class="text--primary text--regular">What Else!</h2>
+    <p class="text--medium feature-ex__describe">We are amazed to share some more features that might help you to make your purchase decision. We love our product and we want you to love the way we do!</p>
     <div class="feature-ex__products">
-      <div class="feature-ex__product">
-        <img src="assets/icons/feature-ex/style-icon.png" alt="style-icon" />
-        <div class="feature-ex__product__text">
-          <h2 class="text--bold">Style</h2>
-          <p class="text--regular">
-            Simple design with plush, highly durable materials and convenient removable/reversible cushions
-          </p>
-        </div>
-      </div>
-
-      <div class="feature-ex__product">
-        <img src="assets/icons/feature-ex/construction-icon.png" alt="construction-icon" />
-        <div class="feature-ex__product__text">
-          <h2 class="text--bold">Construction</h2>
-          <p class="text--regular">Durable frame of solid hardwood offers support and longevity chair table sofa</p>
-        </div>
-      </div>
-
-      <div class="feature-ex__product">
-        <img src="assets/icons/feature-ex/material-icon.png" alt="material-icon" />
-        <div class="feature-ex__product__text">
-          <h2 class="text--bold">Materials</h2>
-          <p class="text--reg ular">
-            Removable back and seat cushions with reversible covers prolong life; filled with ultra soft down/feather
-            blend
-          </p>
-        </div>
-      </div>
-
-      <div class="feature-ex__product">
-        <img src="assets/icons/feature-ex/care-icon.png" alt="care-icon" />
-        <div class="feature-ex__product__text">
-          <h2 class="text--bold">Care</h2>
-          <p class="text--regular">Moisture repellent, stain resistant fabric; wipe with damp cloth chair table sofa</p>
-        </div>
-      </div>
+      <include src="components/feature-ex-product.html"> { "icon": "assets/icons/feature-ex/style-icon.png", "title": "Style", "text": "Simple design with plush, highly durable materials and convenient removable/reversible cushions"} </include>
+      <include src="components/feature-ex-product.html"> { "icon": "assets/icons/feature-ex/construction-icon.png", "title": "Construction", "text": "Durable frame of solid hardwood offers support and longevity chair table sofa"} </include>
+      <include src="components/feature-ex-product.html"> { "icon": "assets/icons/feature-ex/material-icon.png", "title": "Materials", "text": "Removable back and seat cushions with reversible covers prolong life; filled with ultra soft down/feather blend"} </include>
+      <include src="components/feature-ex-product.html"> { "icon": "assets/icons/feature-ex/care-icon.png", "title": "Care", "text": "Moisture repellent, stain resistant fabric; wipe with damp cloth chair table sofa"} </include>
     </div>
   </div>
 </section>
