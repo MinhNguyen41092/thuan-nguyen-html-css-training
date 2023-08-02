@@ -29,7 +29,7 @@
 
 .faq__question {
   background-color: var(--light-color);
-  border: solid 1px var(--gray-color);
+  border-bottom: solid 1px #d9d9d9;
   text-align: left;
 }
 
@@ -67,7 +67,7 @@
 
 .answer {
   display: none;
-  background-color: var(--gray-color);
+  background-color: #f3f3f3;
   padding: 16px;
 }
 
