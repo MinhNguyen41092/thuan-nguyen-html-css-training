@@ -48,9 +48,31 @@
   cursor: pointer;
 }
 
+.question:active {
+  color: var(--primary-color);
+  font-weight: var(--fw-bold);
+}
+
+.question:active .question__btn--open {
+  display: none;
+}
+
+.question:active .question__btn--close {
+  display: block;
+}
+
+.question__btn--close {
+  display: none;
+}
+
 .answer {
+  display: none;
   background-color: var(--gray-color);
   padding: 16px;
+}
+
+.question:active ~ .answer {
+  display: flex;
 }
 
 /* Tablet */
@@ -98,7 +120,9 @@
 /* Desktop */
 @media (min-width: 1440px) {
   .faq {
+    margin: 0 auto;
     padding: 80px 135px;
+    max-width: 1440px;
   }
 
   .faq__content {

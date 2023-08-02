@@ -33,23 +33,22 @@
 }
 
 .form__input {
+  background-color: var(--gray-color);
   border: none;
-  margin-top: 20px;
+  margin: 20px 0 29px 0;
+  padding: 6px 0;
   font-size: 24px;
+  border-bottom: 2px solid #c8c8c8;
 }
 
-.form__line {
-  max-width: 100%;
-  margin: 6px 0 29px 0;
+.form__input:focus {
+  border-bottom: 2px solid var(--primary-color);
+  outline: none;
 }
 
 .form__btn {
   padding: 15px 112px;
   margin-top: 11px;
-}
-
-.form__input:focus {
-  outline: none;
 }
 
 .contact__infos {
@@ -72,6 +71,8 @@
 @media (min-width: 768px) {
   .contact {
     padding: 75px 112px;
+    margin: 0 auto;
+    max-width: 1440px;
   }
 
   .contact__form {
@@ -113,6 +114,10 @@
 
   .contact__form {
     margin: 0;
+  }
+
+  .form__input {
+    min-width: 400px;
   }
 
   .contact__infos {
