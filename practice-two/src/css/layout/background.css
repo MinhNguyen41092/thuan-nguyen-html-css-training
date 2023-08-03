@@ -7,6 +7,7 @@
   background-image: url(../../assets/images/background/background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% center;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -38,6 +39,7 @@
 /* Desktop */
 @media (min-width: 1440px) {
   .background {
-    background-position: center -300px;
+    background: url(../../assets/images/background/background-desktop.png);
+    background-position: center center;
   }
 }
