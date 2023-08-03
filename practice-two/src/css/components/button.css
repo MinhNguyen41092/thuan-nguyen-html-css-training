@@ -3,8 +3,7 @@
 \*------------------------------------*/
 
 .btn {
-  width: 288px;
-  height: 64px;
+  padding: 16px 89px 12px 89px;
   font-size: 24px;
   border: none;
   border-radius: 2px;
@@ -30,6 +29,6 @@
 /* Tablet */
 @media (min-width: 768px) {
   .btn {
-    width: 320px;
+    padding: 16px 105px 12px 105px;
   }
 }

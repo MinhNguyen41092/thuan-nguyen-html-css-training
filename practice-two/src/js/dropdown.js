@@ -5,7 +5,6 @@ const navbar = document.querySelector('.navbar');
 const navbarBtn = document.querySelector('.navbar__btn');
 
 icon.addEventListener('click', function () {
-  navbar.classList.remove('non-active');
   navbar.classList.toggle('active');
 });
 

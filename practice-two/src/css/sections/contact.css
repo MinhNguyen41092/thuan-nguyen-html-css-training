@@ -51,10 +51,6 @@
   margin-top: 11px;
 }
 
-.form__btn:hover {
-  cursor: pointer;
-}
-
 .contact__infos {
   margin-top: 40px;
 }
@@ -82,6 +78,10 @@
   .contact__form {
     margin: 0 32px;
     padding: 69px 40px 80px 40px;
+  }
+
+  .form__btn {
+    padding: 17px 168px 23px 169px;
   }
 
   .contact__info {

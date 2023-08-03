@@ -18,11 +18,3 @@
   align-items: center;
   flex-direction: column;
 }
-
-/* Tablet */
-@media (min-width: 768px) {
-}
-
-/* Desktop */
-@media (min-width: 1440px) {
-}
