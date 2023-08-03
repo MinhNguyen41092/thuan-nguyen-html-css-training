@@ -1,0 +1,119 @@
+/*-----------------------------------------*\
+  #TYPOGRAPHY ELEMENT
+\*-----------------------------------------*/
+
+body {
+  font-family: "Poppins";
+}
+
+a {
+  font-weight: var(--fw-regular);
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+a:hover {
+  color: var(--orange-color);
+}
+
+p {
+  font-weight: var(--fw-light);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h2 {
+  font-weight: var(--fw-regular);
+  font-size: 48px;
+  line-height: 56px;
+}
+
+h3 {
+  font-weight: var(--fw-extrabold);
+  font-size: 24px;
+  color: var(--primary-color);
+}
+
+h4 {
+  font-weight: var(--fw-regular);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/*-----------------------------------------*\
+  #TEXT CLASSES
+\*-----------------------------------------*/
+
+.text {
+  font-size: 16px;
+}
+
+.text--primary {
+  color: var(--primary-color);
+}
+
+.text--light {
+  color: var(--light-color);
+}
+
+.text--black {
+  color: var(--black-color);
+}
+
+.text--regular {
+  font-weight: var(--fw-regular);
+}
+
+.text--bold {
+  font-weight: var(--fw-bold);
+}
+
+.text--extrabold {
+  font-weight: var(--fw-extrabold);
+}
+
+.text--normal {
+  font-size: 16px;
+}
+
+.text--medium {
+  font-size: 24px;
+}
+
+.text--big {
+  font-size: 32px;
+}
+
+/*-----------------------------------------*\
+  #SET FONT FAMILY
+\*-----------------------------------------*/
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  src: url(../../assets/fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  src: url(../../assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  src: url(../../assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 900;
+  font-style: normal;
+  src: url(../../assets/fonts/Poppins-Black.ttf);
+}
