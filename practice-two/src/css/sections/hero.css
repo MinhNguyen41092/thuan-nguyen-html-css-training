@@ -67,7 +67,7 @@
   }
 
   .hero__describe {
-    margin-top: 5px;
+    margin-top: 30px;
   }
 
   .hero__cta__price {
@@ -115,5 +115,9 @@
 
   .hero__feature .feature__info {
     margin: 23px 0 0 20px;
+  }
+
+  .hero__feature .feature__describe {
+    margin-top: 0px;
   }
 }
