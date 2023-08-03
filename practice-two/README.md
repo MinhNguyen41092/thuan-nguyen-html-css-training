@@ -13,7 +13,10 @@
 
 ## Design on figma:
 
-[Figma]([https://www.figma.com/file/RJM7IVpyRHUSltHDSK0msC/Free-Travel-UI-Landing-Page-(Community)?type=design&node-id=2-2&mode=design&t=7KG9vgoIGh32WIOm-0](https://www.figma.com/file/dM4fuTbvN1JNbJlB0DTeS8/main-(Copy)?node-id=0%3A546&mode=dev))
+[Figma](https://www.figma.com/file/dM4fuTbvN1JNbJlB0DTeS8/main-(Copy)?node-id=0%3A557&mode=dev)
+
+[Deploy Vercel](https://moderno11.vercel.app/)
+
 
 ## Information:
 
