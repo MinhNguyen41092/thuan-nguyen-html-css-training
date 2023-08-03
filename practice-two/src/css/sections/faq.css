@@ -48,21 +48,21 @@
   cursor: pointer;
 }
 
-.question:active {
+.question.show {
   color: var(--primary-color);
   font-weight: var(--fw-bold);
 }
 
-.question:active .question__btn--open {
+.question__btn--open .show {
   display: none;
-}
-
-.question:active .question__btn--close {
-  display: block;
 }
 
 .question__btn--close {
   display: none;
+}
+
+.question__btn--close .show {
+  display: flex;
 }
 
 .answer {
@@ -71,7 +71,7 @@
   padding: 16px;
 }
 
-.question:active ~ .answer {
+.answer.show {
   display: flex;
 }
 
