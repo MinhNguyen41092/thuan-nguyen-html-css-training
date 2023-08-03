@@ -1,3 +1,4 @@
+
 //Dropdown Navbar
 const icon = document.querySelector('.navbar__icon');
 const navbar = document.querySelector('.navbar');
@@ -19,18 +20,18 @@ const questionClose = document.querySelector('.question__btn--close')
 const question = document.querySelector('.question');
 const answer = document.querySelector('.answer');
 
-function showAnswer() { 
-  question.classList.toggle("show");
-  answer.classList.toggle("show");
-  questionOpen.classList.toggle("show");
-  questionClose.classList.toggle("show")
-}
+questionOpen.addEventListener('click', function () {
+  question.classList.toggle('show');
+  answer.classList.toggle('show');
+  questionOpen.classList.toggle('show');
+  questionClose.classList.toggle('show')
+})
 
-function hideAnswer() {
-  question.classList.remove("show");
-  answer.classList.remove("show");
-  questionOpen.classList.remove("show");
-  questionClose.classList.remove("show")
-}
+questionClose.addEventListener('click', function () {
+  question.classList.remove('show');
+  answer.classList.remove('show');
+  questionOpen.classList.remove('show');
+  questionClose.classList.remove('show');
+})
 
 
