@@ -43,7 +43,7 @@
 /* Tablet */
 @media (min-width: 768px) {
   .cta {
-    background-position: -5 00px -200px;
+    background-position: -500px -200px;
   }
 
   .cta__video {
