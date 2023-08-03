@@ -9,12 +9,12 @@
 
   <div class="contact__main">
     <form class="contact__form">
-      <label class="text--normal text--primary text--bold">Your Name</label>
-      <input class="form__input" placeholder="type your name here" type="text" />
-      <label class="text--normal text--primary text--bold">Your Email</label>
-      <input class="form__input" placeholder="type your email here" type="email" />
-      <label class="text--normal text--primary text--bold">Your Query</label>
-      <input class="form__input" placeholder="type your query here" type="text" />
+      <label class="text--normal text--primary text--bold" for="name">Your Name</label>
+      <input class="form__input" placeholder="type your name here" id="name" type="text" />
+      <label class="text--normal text--primary text--bold" for="email">Your Email</label>
+      <input class="form__input" placeholder="type your email here" id="email" type="email" />
+      <label class="text--normal text--primary text--bold" for="query">Your Query</label>
+      <input class="form__input" placeholder="type your query here" id="query" type="text" />
       <include src="components/button.html"> { "text": "Send", "class": "form__btn btn--primary text--medium text--light text--bold" } </include>
     </form>
 

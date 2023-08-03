@@ -51,6 +51,10 @@
   margin-top: 11px;
 }
 
+.form__btn:hover {
+  cursor: pointer;
+}
+
 .contact__infos {
   margin-top: 40px;
 }
