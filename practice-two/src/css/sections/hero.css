@@ -16,6 +16,7 @@
 }
 
 .hero__describe {
+  font-weight: var(--fw-light);
   line-height: 24px;
   margin-top: 17px;
   line-height: 40px;
@@ -57,8 +58,12 @@
   margin-top: 15px;
 }
 
-.hero__feature .feature__describe {
+.hero__feature .feature__title {
   margin-top: 10px;
+}
+
+.hero__feature .feature__describe {
+  line-height: 24px;
 }
 
 /* Tablet */
@@ -122,7 +127,7 @@
     margin: 23px 0 0 20px;
   }
 
-  .hero__feature .feature__describe {
+  .hero__feature .feature__title {
     margin-top: 0px;
   }
 }

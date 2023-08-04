@@ -106,7 +106,7 @@
 
   .product__card {
     min-width: 220px;
-    height: 184px;
+    min-height: 184px;
   }
 
   .card__image {
