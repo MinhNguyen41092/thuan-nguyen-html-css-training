@@ -20,6 +20,10 @@
   margin-top: 70px;
 }
 
+.feature__title {
+  line-height: 56px;
+}
+
 .feature__describe {
   margin-top: 19px;
   line-height: 40px;
