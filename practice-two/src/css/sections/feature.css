@@ -20,6 +20,10 @@
   margin-top: 70px;
 }
 
+.feature__title {
+  line-height: 56px;
+}
+
 .feature__describe {
   margin-top: 19px;
   line-height: 40px;
@@ -102,7 +106,7 @@
 
   .product__card {
     min-width: 220px;
-    height: 184px;
+    min-height: 184px;
   }
 
   .card__image {

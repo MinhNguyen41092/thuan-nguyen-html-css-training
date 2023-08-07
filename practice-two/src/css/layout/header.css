@@ -50,6 +50,18 @@
   margin: 0px 15px 0 9px;
 }
 
+.navbar__item {
+  font-weight: var(--fw-regular);
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.navbar__item:hover {
+  color: var(--orange-color);
+}
+
 /* Tablet */
 @media (min-width: 768px) {
   .header {
