@@ -1,0 +1,11 @@
+<svg width="216" height="48" viewBox="0 0 216 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="color">
+<g id="01 + selected">
+<rect id="Rectangle" width="48" height="48" rx="2" fill="#2C4C49"/>
+<rect id="selected" x="6" y="6" width="36" height="36" stroke="white"/>
+</g>
+<rect id="Rectangle_2" x="56" width="48" height="48" rx="2" fill="#2C344C"/>
+<rect id="Rectangle_3" x="112" width="48" height="48" rx="2" fill="#462C4C"/>
+<rect id="Rectangle_4" x="168" width="48" height="48" rx="2" fill="#4C2C2C"/>
+</g>
+</svg>
