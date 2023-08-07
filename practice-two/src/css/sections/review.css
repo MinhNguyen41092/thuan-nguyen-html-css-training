@@ -25,6 +25,7 @@
 }
 
 .review__describe {
+  line-height: 56px;
   margin-top: 18px;
   line-height: 40px;
 }

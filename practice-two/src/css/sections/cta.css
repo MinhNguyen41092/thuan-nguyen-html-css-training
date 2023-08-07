@@ -31,6 +31,10 @@
   align-items: center;
 }
 
+.cta__title {
+  line-height: 56px;
+}
+
 .cta__describe {
   font-weight: var(--fw-light);
   margin-top: 18px;
