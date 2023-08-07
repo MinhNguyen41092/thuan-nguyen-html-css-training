@@ -122,7 +122,7 @@
 /* Desktop */
 @media (min-width: 1440px) {
   .feature {
-    margin: 86px auto;
+    margin: 86px auto 72px;
     max-width: 1170px;
     padding: 121px 100px 80px 100px;
     align-items: flex-start;
