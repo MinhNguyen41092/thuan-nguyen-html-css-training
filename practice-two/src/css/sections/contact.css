@@ -19,6 +19,7 @@
 }
 
 .contact__describe {
+  font-weight: var(--fw-light);
   margin-top: 23px;
   line-height: 40px;
 }
@@ -96,7 +97,7 @@
 /* Desktop */
 @media (min-width: 1440px) {
   .contact {
-    padding: 160px 135px 80px 135px;
+    padding: 216px 135px 100px 135px;
   }
 
   .contact__content {
@@ -105,35 +106,47 @@
   }
 
   .contact__logo {
-    margin-left: 231px;
+    margin-left: 203px;
   }
 
   .contact__summary {
+    margin-top: 100px;
     text-align: left;
     max-width: 570px;
+  }
+
+  .contact__title {
+    max-width: 350px;
   }
 
   .contact__main {
     margin-top: 32px;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .contact__form {
     margin: 0;
+    padding-top: 79px;
   }
 
   .form__input {
+    margin: 37px 0 41px;
     min-width: 400px;
   }
 
+  .form__btn {
+    margin-top: 0;
+  }
+
   .contact__infos {
-    margin: 0 0 0 214px;
+    margin: 110px 0 0 214px;
   }
 
   .contact__info {
-    margin-top: 31px;
+    margin-top: 38px;
     align-items: flex-start;
+    gap: 21px;
   }
 }
