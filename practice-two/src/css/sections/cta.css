@@ -32,6 +32,7 @@
 }
 
 .cta__describe {
+  font-weight: var(--fw-light);
   margin-top: 18px;
   line-height: 40px;
 }
@@ -78,7 +79,7 @@
 
 @media (min-width: 1440px) {
   .cta {
-    margin: 0 auto;
+    margin: 11px auto 0 auto;
     background-position: center center;
     padding: 0 135px 120px;
     flex-direction: row-reverse;
@@ -88,7 +89,7 @@
   }
 
   .cta__video {
-    margin-top: 287px;
+    margin-top: 257px;
     min-width: 570px;
     min-height: 408px;
   }
@@ -103,5 +104,9 @@
   .cta__title {
     padding: 0;
     max-width: 400px;
+  }
+
+  .cta__describe {
+    margin-top: 27px;
   }
 }
