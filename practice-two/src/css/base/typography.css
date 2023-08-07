@@ -6,42 +6,6 @@ body {
   font-family: "Poppins";
 }
 
-a {
-  font-weight: var(--fw-regular);
-  font-size: 16px;
-  text-align: center;
-  text-decoration: none;
-  color: var(--black-color);
-}
-
-a:hover {
-  color: var(--orange-color);
-}
-
-p {
-  font-weight: var(--fw-light);
-  font-size: 16px;
-  line-height: 24px;
-}
-
-h2 {
-  font-weight: var(--fw-regular);
-  font-size: 48px;
-  line-height: 56px;
-}
-
-h3 {
-  font-weight: var(--fw-extrabold);
-  font-size: 24px;
-  color: var(--primary-color);
-}
-
-h4 {
-  font-weight: var(--fw-regular);
-  font-size: 16px;
-  line-height: 24px;
-}
-
 /*-----------------------------------------*\
   #TEXT CLASSES
 \*-----------------------------------------*/
@@ -84,6 +48,10 @@ h4 {
 
 .text--big {
   font-size: 32px;
+}
+
+.text--huge {
+  font-size: 48px;
 }
 
 /*-----------------------------------------*\

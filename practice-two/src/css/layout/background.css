@@ -4,7 +4,7 @@
   min-height: 336px;
   margin: 0;
   padding: 0;
-  background-image: url(../../assets/images/background/background.png);
+  background-image: url(../../assets/images/background/background.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% center;
@@ -14,8 +14,9 @@
 }
 
 .background__btn {
+  font-family: "Poppins";
   font-size: 16px;
-  font-weight: var(--fw-extrabold);
+  font-weight: var(--fw-bold);
   color: var(--light-color);
   background: none;
   text-transform: uppercase;
@@ -34,12 +35,22 @@
   .background {
     min-height: 528px;
   }
+
+  .background__btn {
+    padding: 10px 17px 11px 17px;
+    margin: 0 16px 24px 0;
+  }
 }
 
 /* Desktop */
 @media (min-width: 1440px) {
   .background {
-    background: url(../../assets/images/background/background-desktop.png);
+    background: url(../../assets/images/background/background-desktop.webp);
     background-position: center center;
+  }
+
+  .background__btn {
+    padding: 5px 38px 6px 39;
+    margin: 0 135px 24px 0;
   }
 }
