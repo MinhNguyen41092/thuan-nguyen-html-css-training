@@ -88,7 +88,7 @@
 /* Desktop */
 @media (min-width: 1440px) {
   .review {
-    padding: 80px 135px;
+    padding: 175px 135px 80px 135px;
     max-width: 1440px;
     margin: 0 auto;
   }
@@ -112,14 +112,20 @@
     max-width: 570px;
   }
 
+  .review__describe {
+    margin-top: 31px;
+  }
+
   .review__info {
     text-align: left;
+    margin-top: 73px;
   }
 
   .review__posts {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    margin-top: 38px;
   }
 
   .review__post {
@@ -135,6 +141,14 @@
     max-width: 170px;
     max-height: 168px;
     object-fit: cover;
+  }
+
+  .post__title {
+    margin-top: 13px;
+  }
+
+  .post__describe {
+    margin-top: 9px;
   }
 
   .review__buttons {
