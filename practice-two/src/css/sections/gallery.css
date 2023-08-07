@@ -25,6 +25,7 @@
 .gallery__describe {
   line-height: 40px;
   margin-top: 18px;
+  font-weight: var(--fw-light);
 }
 
 .gallery__color {
@@ -45,12 +46,12 @@
 
 .gallery__image .image {
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
 /* Tablet */
 @media (min-width: 768px) {
-  
   .gallery__describe {
     max-width: 544px;
   }
@@ -73,7 +74,7 @@
 
   .gallery__image:nth-child(3) {
     grid-column: 1 / 2;
-    grid-row: 2 / 4; 
+    grid-row: 2 / 4;
   }
 
   .gallery__image:nth-child(4) {
@@ -84,21 +85,31 @@
 
   .gallery__image:nth-child(5) {
     grid-column: 1 / 2;
-    grid-row:  4 / 5;
+    grid-row: 4 / 5;
   }
 
   .gallery__image:nth-child(6) {
-   margin-top: 184px;
+    margin-top: 184px;
   }
-
-  
+}
 
 /* Desktop */
 @media (min-width: 1440px) {
   .gallery {
     max-width: 1170px;
-    margin: 70 auto;
+    margin: 75px auto;
     padding: 70px;
+  }
+
+  .gallery__logo {
+    min-width: 371px;
+    min-height: 227px;
+  }
+
+  .gallery__logo .logo__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .gallery__content {
@@ -107,12 +118,59 @@
     justify-content: space-between;
   }
 
+  .gallery__describe {
+    margin-top: 25px;
+  }
+
+  .gallery__color {
+    margin-top: 31px;
+  }
+
   .gallery__main {
     margin-top: 0;
     align-items: flex-start;
     text-align: left;
     max-width: 470px;
   }
+
+  .gallery__images {
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 280px 280px 280px 280px;
+    gap: 34px 30px;
+  }
+
+  .gallery__image:first-child {
+    min-width: 500px;
+    min-height: 320px;
+  }
+
+  .gallery__image:nth-child(2) {
+    min-width: 500px;
+    min-height: 584px;
+  }
+
+  .gallery__image:nth-child(3) {
+    min-width: 500px;
+    min-height: 664px;
+    margin-top: 40px;
+  }
+
+  .gallery__image:nth-child(4) {
+    min-width: 500px;
+    min-height: 280px;
+    margin-top: 0;
+    grid-row: 3 / 4;
+  }
+
+  .gallery__image:nth-child(5) {
+    min-width: 500px;
+    min-height: 320px;
+    margin-top: 118px;
+  }
+
+  .gallery__image:nth-child(6) {
+    min-width: 500px;
+    min-height: 440px;
+    margin-top: 0;
+  }
 }
-
-
