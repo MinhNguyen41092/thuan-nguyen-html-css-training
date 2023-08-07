@@ -132,8 +132,14 @@
   }
 
   .form__input {
+    font-size: 27px;
     margin: 37px 0 41px;
+    padding: 0 0 11px;
     min-width: 400px;
+  }
+
+  .form__input:nth-child(2) {
+    margin-top: 32px;
   }
 
   .form__btn {
