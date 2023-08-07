@@ -34,6 +34,10 @@
   .background {
     min-height: 528px;
   }
+
+  .background__btn {
+    margin: 0 16px 24px 0;
+  }
 }
 
 /* Desktop */
@@ -41,5 +45,9 @@
   .background {
     background: url(../../assets/images/background/background-desktop.png);
     background-position: center center;
+  }
+
+  .background__btn {
+    margin: 0 135px 24px 0;
   }
 }
