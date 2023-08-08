@@ -46,6 +46,13 @@
   gap: 65px 0;
 }
 
+.review__post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .post__title {
   margin-top: 17px;
   line-height: 40px;
@@ -73,6 +80,7 @@
   }
 
   .post__cards {
+    max-width: 540px;
     margin-top: 30px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -131,6 +139,8 @@
 
   .review__post {
     max-width: 570px;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .post__cards {
