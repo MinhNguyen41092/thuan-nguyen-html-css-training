@@ -22,14 +22,14 @@ const answer = document.querySelector('.answer');
 questionOpen.addEventListener('click', function () {
   question.classList.toggle('show');
   answer.classList.toggle('show');
-  questionOpen.classList.toggle('show');
+  questionOpen.classList.toggle('hide');
   questionClose.classList.toggle('show')
 })
 
 questionClose.addEventListener('click', function () {
   question.classList.remove('show');
   answer.classList.remove('show');
-  questionOpen.classList.remove('show');
+  questionOpen.classList.remove('hide');
   questionClose.classList.remove('show');
 })
 

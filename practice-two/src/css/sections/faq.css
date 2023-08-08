@@ -16,7 +16,12 @@
   text-align: center;
 }
 
+.faq__title {
+  line-height: 56px;
+}
+
 .faq__describe {
+  font-weight: var(--fw-light);
   margin-top: 16px;
   line-height: 40px;
 }
@@ -56,7 +61,7 @@
   font-weight: var(--fw-bold);
 }
 
-.question__btn--open .show {
+.question__btn--open.hide {
   display: none;
 }
 
@@ -64,7 +69,7 @@
   display: none;
 }
 
-.question__btn--close .show {
+.question__btn--close.show {
   display: flex;
 }
 
@@ -135,8 +140,18 @@
   }
 
   .faq__summary {
+    margin-top: 0;
     max-width: 570px;
+    min-height: 310px;
     text-align: left;
+  }
+
+  .faq__title {
+    margin-top: -5px;
+  }
+
+  .faq__describe {
+    margin-top: 25px;
   }
 
   .faq__logo {
