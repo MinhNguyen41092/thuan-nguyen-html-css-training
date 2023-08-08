@@ -61,7 +61,7 @@
   font-weight: var(--fw-bold);
 }
 
-.question__btn--open .show {
+.question__btn--open.hide {
   display: none;
 }
 
@@ -69,7 +69,7 @@
   display: none;
 }
 
-.question__btn--close .show {
+.question__btn--close.show {
   display: flex;
 }
 
